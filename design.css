@@ -1,0 +1,257 @@
+body {
+    width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+#homeBtn {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    height: 5rem;
+    width: auto;
+    -webkit-filter: drop-shadow(2px 2px 5px #29363b);
+    filter: drop-shadow(2px 2px 5px #29363b);
+    transition: .3s;
+    box-shadow: none;
+}
+
+#homeBtn:hover {
+    height: 6rem;
+    width: auto;
+}
+
+
+#sideNav {
+    display: block;
+    padding-bottom: 60px;
+    background-color: #29363b;
+    width: 0px;
+    z-index: 1;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    transition: 0.3s;
+    overflow-x: hidden;
+    box-shadow: 0px 0px 3px;
+}
+
+#sideNav ul {
+    font-family: Raleway, sans-serif;
+    font-size: 24px;
+    transition: 0.3s;
+    padding-left: 2rem;
+    overflow-x: hidden;
+}
+
+.nav-link {
+    color: #fdcea9;
+    transition: .5s;
+}
+
+.nav-link:hover {
+    color: #EA495F;
+}
+
+#img1 {
+    margin: 2rem 1.5rem 1.5rem;
+    height: 30px;
+    position: fixed;
+}
+
+#img1:hover {
+    cursor: pointer;
+}
+
+ #sideNav .closebtn {
+    color: #FDCEA9;
+    text-decoration: none;
+    font-size: 50px;
+
+  }
+
+
+.bg1 {
+    background: fixed;
+    background-size: cover;
+    background-image: url("./img/bg1.png");
+    height: 660px;
+    width: auto;
+}
+
+#wojiao {
+    font-family: righteous, sans-serif;
+    font-size: 36px;
+    color: #F4837D;
+    margin-top: 139px;
+    margin-left: 126px;
+    text-shadow: 2px 2px 5px #29363b;
+
+}
+
+.formBorder {
+    margin-left: -40px;
+    background-color: #FDCEA9;
+    height: 200px;
+    width: fit-content;
+    box-shadow: 1px 1px 5px #29363b;
+}
+
+/* If the screen size is 1200px wide or more, set the font-size to 80px */
+@media (min-width: 1200px) {
+    #name {
+        font-size: 80px;
+    }
+}
+
+/* If the screen size is smaller than 1200px, set the font-size to 80px */
+@media (max-width: 1199.98px) {
+    #name {
+        font-size: 60px;
+    }
+}
+
+#name {
+    padding-top: -20px;
+    font-family: righteous, sans-serif;
+    color: #EA495F;
+    white-space: initial;
+    line-height: 120%;
+    text-shadow: 2px 2px 5px #29363b;
+}
+
+#details p {
+    font-size: 20px;
+    font-family: Raleway, sans-serif;
+    color: #FDCEA9;
+    text-shadow: 2px 2px 3px #29363B;
+}
+
+.dp {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FDCEA9;
+    height: 507px;
+    width: 344px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    margin-top: 65px;
+    box-shadow: 2px 2px 15px #29363B;
+}
+
+
+.bg2 {
+    background-color: #eeeeee;
+    height: 660px;
+}
+
+#vecteezy {
+    color: #FDCEA9;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.titleVer1 {
+    font-family: righteous, sans-serif;
+    font-size: 64px;
+    color: #EA495F;
+    margin-left: 5px;
+    margin-top: 21px;
+    margin-bottom: 21px;
+}
+
+.formBorderTitle {
+    background-color: #29363B;
+    height: 65px;
+    width: 10px;
+    box-shadow: 1px 1px 5px #29363b;
+    margin-left: 65px;
+    margin-top: 38px;
+}
+
+.media1 {
+    height: 435px;
+    /*background-color: #EA495F;
+    box-shadow: 2px 2px 15px #29363B;*/
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    margin-left: 55px;
+}
+
+@media (min-width: 1200px) {
+    .text1 {
+        font-size: 24px;
+    }
+}
+
+/* If the screen size is smaller than 1200px, set the font-size to 80px */
+@media (max-width: 1199.98px) {
+    .text1 {
+        font-size: 18px;
+    }
+}
+
+.text1 {
+    text-align: right;
+    font-family: Raleway, sans-serif;
+    margin-left: 65px;
+    color: #29363B;
+}
+
+.titleVer2 {
+    font-family: righteous, sans-serif;
+    font-size: 64px;
+    color: #EA495F;
+    margin-left: 5px;
+    margin-top: 21px;
+}
+
+.media2 {
+    height: 435px;
+    /*background-color: #EA495F;
+    box-shadow: 2px 2px 15px #29363B;*/
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    margin-left: 55px;
+}
+
+@media (min-width: 1200px) {
+    .text2 {
+        font-size: 24px;
+    }
+}
+
+/* If the screen size is smaller than 1200px, set the font-size to 80px */
+@media (max-width: 1199.98px) {
+    .text2 {
+        font-size: 18px;
+    }
+}
+
+.text2 {
+    text-align: left;
+    font-family: Raleway, sans-serif;
+    margin-left: 65px;
+    color: #FDCEA9;
+    text-shadow: 2px 2px 3px #29363B;
+}
+
+.media1 img,
+.media1 video,
+.media2 img,
+.media2 video {
+    height: inherit;
+    width: max-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    box-shadow: 2px 2px 15px #29363B;
+}
