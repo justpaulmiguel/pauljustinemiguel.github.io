@@ -252,6 +252,5 @@ body {
     margin-right: auto;
     border-radius: 25px;
     border: none;
-    outline: none;
-    box-shadow: 2px 2px 15px #29363B;
+    outline: none;  
 }
